@@ -14,6 +14,9 @@ imageName="timodjatomika/sine-website"
 ##   docker kill sine-website
 #fi
 
+# kill all docker containers
+docker kill $(docker ps -q)
+
 # pull new image from docker hub
 docker pull $imageName
 
