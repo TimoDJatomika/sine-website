@@ -1,6 +1,12 @@
-# Sicherheit in Nezten 
+# Sicherheit in Nezten - Webseite
+
+**Link zur Webseite** http://sine.brainoftimo.com
 
 Hier wird die Autobuild-funktion von Docker bzw. [Docker Hub](https://hub.docker.com)
+
+Der Container wird auf einen [Digital Ocean](https://digitalocean.com) gehostet
+
+Die Docker Container auf dem Server werden über die [Docker Cloud](https://cloud.docker.com) verwaltet
 
 Der Link zum Docker Container ist folgender:
 https://hub.docker.com/r/timodjatomika/sine-website/
@@ -13,6 +19,11 @@ https://hub.docker.com/r/timodjatomika/sine-website/
 
 
 ## Slack 
-Jedesmal wenn in das Repo gepushed wird, wird eine Nachricht an Slack gesendet
+Slack ist ein Tool welches die Kommunikation in Teams vereinfachen möchte. Außerdem bietet Slack eine umfangreiche API an.
+So wird z.B. eine Notifikation in den Channel *Github* gepostet, wenn ein developer ein `git push` ausführt
 
+### Unser Slack Bot
+Einen Slack Bot kann man nach seinen eingenen wünschen Konfigurieren. 
+Unsere Slackbot wurde so porgrammiert, dass er - wenn er das Signal **/redeploy** bekommt - automatisch einen redeploy des Docker Containers ausführt.
 
+Dazu wurde ein Trigger auf [der Docker Cloud](https://cloud.docker.com) eingerichtet. Anschließend bekommt man von der Docker Cloud gesagt, ob der redeploy erflogreich war, oder nicht.
