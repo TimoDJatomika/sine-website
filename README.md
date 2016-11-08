@@ -4,7 +4,7 @@
 
 Hier wird die Autobuild-funktion von Docker bzw. [Docker Hub](https://hub.docker.com)
 
-Der Container wird auf einen [Digital Ocean](https://digitalocean.com) gehostet
+Der Container wird auf einen [Digital Ocean](https://digitalocean.com) Server gehostet
 
 Die Docker Container auf dem Server werden über die [Docker Cloud](https://cloud.docker.com) verwaltet
 
