@@ -16,15 +16,3 @@ footer {
   padding-top: 20px;
   background-color: #f5f5f5;
 }
-
-/*
-.containerFt {
-   width: auto;
-   max-width: 680px;
-   padding: 0 15px;
-}
-*/
-
-.containerFt .text-muted {
-   text-align: right;
-}
