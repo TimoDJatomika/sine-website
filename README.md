@@ -1,7 +1,5 @@
 # Sicherheit in Nezten - Webseite
 
-**Link zur Webseite** http://sine.brainoftimo.com
-
 Hier wird die Autobuild-funktion von Docker bzw. [Docker Hub](https://hub.docker.com)
 
 Der Container wird auf einen [Digital Ocean](https://digitalocean.com) Server gehostet
